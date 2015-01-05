@@ -96,12 +96,12 @@ body {
     </style>
 </head>
 <body>
-    <div id="loading">正在加载...</div>
+    <div id="loading">基佬变身中...</div>
     <div id="theEnd"></div>
     <div id="map"></div>
 
 <!-- 指定全局的分享内容 -->
-<input id="wsContent" type="hidden" value="一个送给美君的生日礼物，也是送给所有异地恋人的礼物「变得是距离，不变的是坚持」。 via @LOO2K">
+<input id="wsContent" type="hidden" value="阿卓喜欢即墨">
 <!-- 指定全局的分享链接 -->
 <input id="wsUrl" type="hidden" value="http://liumeijun.com/">
 <!-- 指定全局的分享图片 -->
@@ -1191,13 +1191,13 @@ window.onload = function() {
 
         MUSIC = soundManager.createSound({
             id: 'mp3',
-            url: './LemonTree.mp3',
+            url: './perfect.mp3',
             onload: function() {
                 preLoadImages(imglist, function() {
                     setTimeout(function() {
                         var loading = document.getElementById('loading');
                         loading.style.cursor = 'pointer';
-                        loading.innerHTML = '点击开始';
+                        loading.innerHTML = '即墨死基佬已经饥渴难耐了，块点击吧';
                         loading.onclick = function() {
                             screenfull && screenfull.request();
                             loadScript();
