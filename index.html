@@ -47,7 +47,7 @@ body {
     font: 12px/1.8 'Microsoft Yahei','Helvetica Neue',Helvetica,Arial,Sans-serif;
     padding: 0;
     margin: 0;
-    color: #333333;
+    color: #003333;
 }
 
 #map {
@@ -123,17 +123,17 @@ body {
  * 5H
  */
 // 初始化地图中心
-var MP_CEN = {lng: 3.894763, lat: 44.529534};
+var MP_CEN = {lng: 13.894763, lat: 24.529534};
 // 中国中心
-var CN_CEN = {lng: 103.758427, lat: 36.172333};
+var CN_CEN = {lng: 32.758427, lat: 27.172333};
 // 嘉应学院
-var MZ_JYU = {lng: 116.135018, lat: 24.33438};
+var MZ_JYU = {lng: 44.135018, lat: 124.33438};
 // 广外艺
-var GZ_GTC = {lng: 113.345774, lat: 23.153356};
+var GZ_GTC = {lng: 112.345774, lat: 13.153356};
 // 广州市
-var GD_GZS = {lng: 113.256838, lat: 23.157309};
+var GD_GZS = {lng: 13.256838, lat: 33.157309};
 // 河源市
-var GD_HYS = {lng: 114.701682, lat: 23.754195};
+var GD_HYS = {lng: 14.701682, lat: 123.754195};
 // 背景音乐
 var MUSIC;
 
@@ -230,18 +230,18 @@ function panZoom_HEY() {
             setTimeout(function() {
                 var between = [
                     {
-                        title: '梅州 → 广州',
+                        title: '直男 → 基佬',
                         content: '426 km.',
                         point: MZ_JYU
                     },
                     {
-                        title: '梅州 → 广州',
+                        title: '直男 → 基佬',
                         content: '5 hours by train.',
                         point: GZ_GTC
                     },
                     {
-                        title: '变得是距离，不变的是坚持；',
-                        content: '<img src="http://lukesign.qiniudn.com/images/ticket.jpg" width="200" height="149" alt="ticket" />',
+                        title: '基佬永远是基佬',
+                        content: '<img src="http://s20.mogucdn.com/b7/pic/140721/tgwy2_ieyggmzqgq3dozbsmiytambqgyyde_800x600.jpg_225x999.jpg" width="200" height="149" alt="ticket" />',
                         point: MZ_JYU
                     }
                 ];
@@ -258,63 +258,63 @@ function showPhotos() {
         zoomTo(13, 1000, function() {
             var photos = [
                 {
-                    title: '纪念堂',
-                    content: '<img src="http://lukesign.qiniudn.com/images/jiniantang.jpg" width="500" height="373" alt="纪念堂" />',
+                    title: '干嘛',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieydimjqheytmyzsmiytambqgiyde_800x600.jpg_225x999.jpg" width="500" height="373" alt="干嘛" />',
                     point: {lng: 113.271147, lat: 23.139616}
                 },
                 {
-                    title: '陈家祠',
-                    content: '<img src="http://lukesign.qiniudn.com/images/chenjiaci.jpg" width="500" height="373" alt="陈家祠" />',
+                    title: '呵呵',
+                    content: '<img src="http://s16.mogucdn.com/b7/pic/140721/tgwy2_ieygiolggq3dozbsmiytambqgyyde_1024x768.jpg_225x999.jpg" width="500" height="373" alt="呵呵" />',
                     point: {lng: 113.252764, lat: 23.131838}
                 },
                 {
-                    title: '看电影',
-                    content: '<img src="http://lukesign.qiniudn.com/images/dianying.jpg" width="500" height="373" alt="看电影" />',
+                    title: '去洗澡',
+                    content: '<img src="http://s19.mogucdn.com/b7/pic/140721/tgwy2_ieydczjume3tmyzsmiytambqgqyde_1024x768.jpg_225x999.jpg" width="500" height="373" alt="去洗澡" />',
                     point: {lng: 113.268865, lat: 23.200458}
                 },
                 {
-                    title: '',
-                    content: '<img src="http://lukesign.qiniudn.com/images/chenjiaci1.jpg" width="500" height="373" alt="陈家祠" />',
+                    title: '在吗',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieygczbsga4dmyzsmiytambqgqyde_800x600.jpg_225x999.jpg" width="500" height="373" alt="在吗" />',
                     point: {lng: 113.252764, lat: 23.131838}
                 },
                 {
-                    title: '吃货',
-                    content: '<img src="http://lukesign.qiniudn.com/images/beijingroad.jpg" width="280" height="375" alt="吃货" />',
+                    title: '忙不',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieyggnbshe3dozbsmiytambqgqyde_800x600.jpg_225x999.jpg" width="280" height="375" alt="忙不" />',
                     point: {lng: 113.275619, lat: 23.127547}
                 },
                 {
-                    title: '',
-                    content: '<img src="http://lukesign.qiniudn.com/images/chenjiaci2.jpg" width="500" height="375" alt="陈家祠" />',
+                    title: '早点睡',
+                    content: '<img src="http://s20.mogucdn.com/b7/pic/140721/tgwy2_ieydsmjumyytmyzsmiytambqhayde_800x600.jpg_225x999.jpg" width="500" height="375" alt="早点睡" />',
                     point: {lng: 113.252764, lat: 23.131838}
                 },
                 {
-                    title: '臭美中...',
-                    content: '<img src="http://lukesign.qiniudn.com/images/dress1.jpg" width="280" height="375" alt="臭美" />',
+                    title: 'dota',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieydknrsmy3tmyzsmiytambqhayde_800x600.jpg_225x999.jpg" width="280" height="375" alt="dota" />',
                     point: {lng: 113.275619, lat: 23.127547}
                 },
                 {
-                    title: '臭美中...',
-                    content: '<img src="http://lukesign.qiniudn.com/images/dress2.jpg" width="280" height="375" alt="臭美" />',
+                    title: '基友',
+                    content: '<img src="http://s20.mogucdn.com/b7/pic/140721/tgwy2_ieydkyrtha3dozbsmiytambqgiyde_800x600.jpg_225x999.jpg" width="280" height="375" alt="基友" />',
                     point: {lng: 113.248583, lat: 23.123725}
                 },
                 {
-                    title: '',
-                    content: '<img src="http://lukesign.qiniudn.com/images/you.jpg" width="499" height="373" alt="You" />',
+                    title: '破电脑',
+                    content: '<img src="http://s19.mogucdn.com/b7/pic/140721/tgwy2_ieygimlcmmytmyzsmiytambqgiyde_800x600.jpg_225x999.jpg" width="499" height="373" alt="You" />',
                     point: {lng: 113.340995, lat: 23.106222}
                 },
                 {
-                    title: '又是离开，又是不舍...',
-                    content: '<img src="http://lukesign.qiniudn.com/images/leave.jpg" width="500" height="375" alt="离开" />',
+                    title: '死基佬',
+                    content: '<img src="http://s16.mogucdn.com/b7/pic/140721/tgwy2_ieydanjtg43dozbsmiytambqgyyde_800x600.jpg_225x999.jpg" width="500" height="375" alt="离开" />',
                     point: {lng: 113.358452, lat: 23.158306}
                 },
                 {
-                    title: '红海湾',
-                    content: '<img src="http://lukesign.qiniudn.com/images/sea.jpg" width="500" height="375" alt="红海湾" />',
+                    title: '搅基到老',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieyggoldmq3tmyzsmiytambqgyyde_800x600.jpg_225x999.jpg" width="500" height="375" alt="搅基到老" />',
                     point: {lng: 115.573511, lat: 22.712665}
                 },
                 {
-                    title: '后山',
-                    content: '<img src="http://lukesign.qiniudn.com/images/s.jpg" width="500" height="375" alt="后山" />',
+                    title: '呵呵',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieydgyrrmuytmyzsmiytambqhayde_1024x768.jpg_225x999.jpg" width="500" height="375" alt="呵呵" />',
                     point: {lng: 115.622433, lat: 23.184734}
                 }
             ];
@@ -332,32 +332,32 @@ function wannaTo() {
             var wanna = [
                 {
                     title: '',
-                    content: '地图标上想去的地方，有一天，带着你去流浪。',
+                    content: '啊哈哈哈哈。',
                     point: CN_CEN
                 },
                 {
-                    title: '厦门',
-                    content: '<img src="http://lukesign.qiniudn.com/images/wannato/xiamen.jpg" width="500" height="338" alt="wannaTo" />',
+                    title: '琼花',
+                    content: '<img src="http://s20.mogucdn.com/b7/pic/140721/tgwy2_ieydkyrtha3dozbsmiytambqgiyde_800x600.jpg_225x999.jpg" width="500" height="338" alt="wannaTo" />',
                     point: {lng: 118.148154, lat: 24.497912}
                 },
                 {
-                    title: '凤凰古镇',
-                    content: '<img src="http://lukesign.qiniudn.com/images/wannato/fenghuang.jpg" width="500" height="337" alt="wannaTo" />',
+                    title: '即墨',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieydgyrrmuytmyzsmiytambqhayde_1024x768.jpg_225x999.jpg" width="500" height="337" alt="wannaTo" />',
                     point: {lng: 100.21191, lat: 26.928061}
                 },
                 {
-                    title: '桂林阳朔',
-                    content: '<img src="http://lukesign.qiniudn.com/images/wannato/guilin.jpg" width="499" height="399" alt="wannaTo" />',
+                    title: '啊啊吖',
+                    content: '<img src="http://s17.mogucdn.com/b7/pic/140721/tgwy2_ieyggoldmq3tmyzsmiytambqgyyde_800x600.jpg_225x999.jpg" width="499" height="399" alt="wannaTo" />',
                     point: {lng: 110.503626, lat: 24.780932}
                 },
                 {
-                    title: '西藏',
-                    content: '<img src="http://lukesign.qiniudn.com/images/wannato/xizang.jpg" width="500" height="400" alt="wannaTo" />',
+                    title: '5555',
+                    content: '<img src="http://s16.mogucdn.com/b7/pic/140721/tgwy2_ieydanjtg43dozbsmiytambqgyyde_800x600.jpg_225x999.jpg" width="500" height="400" alt="wannaTo" />',
                     point: {lng: 91.115691, lat: 29.687083}
                 },
                 {
-                    title: '杭州西湖',
-                    content: '<img src="http://lukesign.qiniudn.com/images/wannato/xihu.jpg" width="500" height="327" alt="wannaTo" />',
+                    title: 'yyyy,
+                    content: '<img src="http://lukesign.qiniudn.com/images/wannato/xihu.jpghttp://s19.mogucdn.com/b7/pic/140721/tgwy2_ieygimlcmmytmyzsmiytambqgiyde_800x600.jpg_225x999.jpg" width="500" height="327" alt="wannaTo" />',
                     point: {lng: 120.151946, lat: 30.250472}
                 }
             ];
